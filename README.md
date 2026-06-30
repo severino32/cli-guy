@@ -2,6 +2,8 @@
 
 A browser-based graphical shell for any Unix box. One server, one WebSocket, one schema-driven UI, with a tab per tool. No build step, and any browser works.
 
+![CLI GUY: live system stats, a ping sparkline, a disk treemap, and Hacker News, all in one browser tab](demo.gif)
+
 It runs as a single Node process and exposes a set of "adapters" (live system stats, a real PTY terminal, processes, networking, git, disk, docker, an HTTP inspector, sqlite, a file browser, Hacker News) over one tunnel and one auth.
 
 ## Run it
